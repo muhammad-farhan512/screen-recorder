@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen & Audio Recorder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="recorder">
+        <h1>Screen & Audio Recorder</h1>
+        <div class="controls">
+            <button id="startButton" class="btn start">Start Recording</button>
+            <button id="stopButton" class="btn stop" disabled>Stop Recording</button>
+        </div>
+        <video id="videoPlayback" controls></video>
+        <a id="downloadLink" class="download-link" style="display: none;">Download Recording</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
